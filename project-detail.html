@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html dir="rtl">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="./assets/css/uikit-rtl.min.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="./assets/js/uikit.min.js"></script>
+      <script src="./assets/js/uikit-icons.min.js"></script>
+      <link rel="stylesheet" href="style.css">
+      <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js'></script>
+      <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css' rel='stylesheet' />
+      <title>shairad</title>
+</head>
+<body>
+    <div>
+        <div class="uk-section-small uk-position-relative">
+            <div class="mod-border uk-position-top mod-rotate">
+            </div>
+            <nav class="uk-container uk-container-expand" data-uk-navbar="mode: click">
+                <div class="uk-navbar-right">
+                    <ul class="uk-subnav uk-subnav-divider uk-visible@m uk-margin-remove-bottom mod-nav-net" data-uk-margin>
+                        <li><a class="mod-font-s" href=""><span class="uk-margin-small-left mod-blue">02188994464</span><img src="assets/img/nav-phone.svg" alt="" data-uk-svg></a></li>
+                        <li><a class="mod-font-s" href=""><img src="assets/img/Telegram.svg" alt="" data-uk-svg></a></li>
+                        <li><a class="mod-font-s" href=""><img src="assets/img/Instagram.svg" alt="" data-uk-svg></a></li>
+                    </ul>
+                    <a class="uk-navbar-toggle uk-hidden@m" href="#" data-uk-toggle="target: #offcanvas">
+                        <span data-uk-navbar-toggle-icon></span>
+                    </a> 
+                    <div id="offcanvas" data-uk-offcanvas="flip:false; overlay: true">
+                        <div class="uk-offcanvas-bar" style="background-color:#10316b;">
+                            <button class="uk-offcanvas-close" style="top:47px;" type="button" data-uk-close></button>
+                            <img class="uk-margin" src="assets/img/Footer-Logo.png" data-uk-img alt="logo">
+                            <hr>
+                            <div class="uk-position-relative">
+                                <div class="uk-margin">
+                                    <ul class="uk-nav-default uk-nav-parent-icon mod-side-menu uk-list" data-uk-nav>
+                                        <li><a href="index.html">صفحه اصلی </a></li>
+                                        <li><a href="project.html">پروژه</a></li>
+                                        <li><a href="service.html">خدمات</a></li>
+                                        <li><a href="blog.html">اخبار و رسانه</a></li>
+                                        <li><a href="about.html">درباره ما</a></li>
+                                        <li><a href="contact.html">تماس با ما</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+                            <ul class="uk-subnav uk-subnav-divider mod-net-div uk-flex uk-flex-center" data-uk-margin>
+                                <li class="mod-tel" data-uk-tooltip="telegram"><a href=""><img src="assets/img/Telegram.svg" alt="" data-uk-svg></a></li>
+                                <li class="mod-insta" data-uk-tooltip="instagram"><a href=""><img src="assets/img/Instagram.svg" alt="" data-uk-svg></a></li>
+                                <li class="mod-whatsapp" data-uk-tooltip="whatsapp"><a href=""><img src="assets/img/whats.svg" alt="" data-uk-svg></a></li>
+                                <li class="mod-link" data-uk-tooltip="Linkdn"><a href=""><img src="assets/img/link.svg" alt="" data-uk-svg></a></li>
+                            </ul>
+                            <div class="uk-flex uk-flex-center">
+                                <span class="uk-margin-small-left mod-light">02188994464</span><img src="assets/img/nav-phone.svg" alt="" data-uk-svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-navbar-center uk-container uk-visible@m">            
+                    <ul class="uk-navbar-nav mod-menu-height">
+                        <li class="uk-active"><a class="uk-button uk-button-text mod-h-menu" href="index.html">صفحه اصلی</a></li>
+                        <li><a class="uk-button uk-button-text mod-h-menu" href="project.html">پروژه</a></li>
+                        <li><a class="uk-button uk-button-text mod-h-menu" href="service.html">خدمات</a></li>
+                        <li><a class="uk-button uk-button-text mod-h-menu" href="blog.html">اخبار</a></li>
+                        <li><a class="uk-button uk-button-text mod-h-menu" href="about.html">درباره ما</a></li>
+                        <li><a class="uk-button uk-button-text mod-h-menu" href="contact.html">تماس با ما</a></li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-left">            
+                    <img src="assets/img/logo.png" data-uk-img alt="">
+                </div>
+            </nav>
+            <div class="mod-border uk-position-bottom">
+            </div>
+        </div>  
+        <div class="uk-section-large uk-background-cover uk-flex uk-flex-center uk-flex-middle" data-src="assets/img/Header2.jpg" data-uk-img>
+            <div class="uk-text-center">
+                <h2 class="mod-gold uk-h3">پروژه ها</h2>
+                <h2 class="uk-light uk-h4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</h2>
+            </div>
+        </div>
+    </div> 
+    <div class="uk-section uk-margin-large-bottom">
+        <div class="uk-container uk-container-large uk-flex">
+            <div>
+                <h2 class="uk-h6 uk-margin-small-bottom mod-title1">همکاران ما</h2>
+                <h3 class="uk-h4 uk-margin-small-top uk-margin-small-bottom mod-title2">شرکت هایی که با ما همکاری داشته اند</h3>
+                <hr class="mod-short-hr uk-margin-small-top">
+                <div class="mod-margin-bottom uk-margin-medium" data-uk-grid>
+                    <div class="uk-width-1-2@s">
+                        <div class="uk-child-width-1-3@s uk-child-width-1-2 mod-info" data-uk-grid>
+                            <div>
+                                <div>
+                                    <img src="assets/img/ico-name.svg" alt="" data-uk-svg>
+                                    <span class="uk-margin-small-right">نام پروژه:</span>
+                                </div>
+                                <div>پروژه ساختمانی آراد مهر</div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="assets/img/ico-category.svg" alt="" data-uk-svg>
+                                    <span class="uk-margin-small-right">نام پروژه:</span>
+                                </div>
+                                <div>پروژه ساختمانی آراد مهر</div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="assets/img/ico-client.svg" alt="" data-uk-svg>
+                                    <span class="uk-margin-small-right">نام پروژه:</span>
+                                </div>
+                                <div>پروژه ساختمانی آراد مهر</div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="assets/img/ico-location.svg" alt="" data-uk-svg>
+                                    <span class="uk-margin-small-right">نام پروژه:</span>
+                                </div>
+                                <div>پروژه ساختمانی آراد مهر</div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="assets/img/ico-time.svg" alt="" data-uk-svg>
+                                    <span class="uk-margin-small-right">نام پروژه:</span>
+                                </div>
+                                <div>پروژه ساختمانی آراد مهر</div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="assets/img/ico-status.svg" alt="" data-uk-svg>
+                                    <span class="uk-margin-small-right">نام پروژه:</span>
+                                </div>
+                                <div>پروژه ساختمانی آراد مهر</div>
+                            </div>
+                        </div>
+                        <p class="uk-margin-large-top mod-paragraph">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                        </p>
+                    </div>
+                    <div class="uk-width-1-2@s">
+                        <img src="assets/img/img-project.jpg" alt="" data-uk-img> 
+                    </div>
+                </div>
+                <div class="mod-paragraph mod-margin-top">
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                    </p>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                    </p>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                    </p>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="assets/img/City.png" class="mod-img" alt="" data-uk-img>
+    <div class="uk-section-large uk-padding-remove-top">
+        <div class="uk-container uk-container-large">
+            <div class="uk-position-relative uk-visible-toggle" tabindex="-1" data-uk-slider data-uk-grid>
+                <div class="uk-width-1-2@s">
+                    <h2 class="uk-h6 uk-margin-small-bottom mod-title1 uk-text-center uk-text-right@s">تصاویر پروژه</h2>
+                    <h3 class="uk-h4 uk-margin-small-top uk-margin-small-bottom mod-title2 uk-text-center uk-text-right@s">مجموعه تصاویر این پروژه</h3>
+                    <hr class="mod-short-hr uk-margin-small-top uk-margin-remove-bottom uk-align-center uk-align-right@s">
+                </div>
+                <div class="uk-width-1-2@s uk-flex uk-flex-left@s uk-flex-center uk-flex-middle mod-slide-arrow">
+                    <a class="" href="#" data-uk-slider-item="previous"><span data-uk-icon="icon:arrow-left;ratio:1.5"></span></a>
+                    <a class="" href="#" data-uk-slider-item="next"><span data-uk-icon="icon:arrow-right;ratio:1.5"></span></a>
+                </div>  
+                <div class="uk-width-1-1 mod-slider">
+                    <ul class="uk-slider-items uk-child-width-1-3@s uk-grid">
+                        <li>
+                            <div class="mod-slide-item">
+                                <a class="uk-flex uk-flex-center"  href="">
+                                    <img class="mod-img" src="./assets/img/Blog-img2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a class="uk-flex uk-flex-center"  href="">
+                                    <img class="mod-img" src="./assets/img/Blog-img2.jpg" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mod-slide-item">
+                                <a class="uk-flex uk-flex-center"  href="">
+                                    <img class="mod-img" src="./assets/img/Blog-img2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a class="uk-flex uk-flex-center"  href="">
+                                    <img class="mod-img" src="./assets/img/Blog-img2.jpg" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mod-slide-item">
+                                <a class="uk-flex uk-flex-center"  href="">
+                                    <img class="mod-img" src="./assets/img/Blog-img2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a class="uk-flex uk-flex-center"  href="">
+                                    <img class="mod-img" src="./assets/img/Blog-img2.jpg" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mod-slide-item">
+                                <a class="uk-flex uk-flex-center"  href="">
+                                    <img class="mod-img" src="./assets/img/Blog-img2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a class="uk-flex uk-flex-center"  href="">
+                                    <img class="mod-img" src="./assets/img/Blog-img2.jpg" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mod-slide-item">
+                                <a class="uk-flex uk-flex-center"  href="">
+                                    <img class="mod-img" src="./assets/img/Blog-img2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a class="uk-flex uk-flex-center"  href="">
+                                    <img class="mod-img" src="./assets/img/Blog-img2.jpg" alt="">
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>          
+            </div>
+        </div>
+    </div>
+    <img class="mod-img" src="assets/img/Footer-City.png" alt="" data-uk-img>
+    <div class="uk-section-small mod-bg-blue">
+            <div class="uk-container uk-container-large">
+                <div class="uk-child-width-1-2@s uk-margin-medium-bottom"data-uk-grid>
+                    <div>
+                        <ul class="uk-subnav uk-subnav-divider mod-net-div uk-flex uk-flex-right@s uk-flex-center" data-uk-margin>
+                            <li class="mod-tel" data-uk-tooltip="telegram"><a href=""><img src="assets/img/Telegram.svg" alt="" data-uk-svg></a></li>
+                            <li class="mod-insta" data-uk-tooltip="instagram"><a href=""><img src="assets/img/Instagram.svg" alt="" data-uk-svg></a></li>
+                            <li class="mod-twitter" data-uk-tooltip="twitter"><a href=""><img src="assets/img/Twitter.svg" alt="" data-uk-svg></a></li>
+                            <li class="mod-whatsapp" data-uk-tooltip="whatsapp"><a href=""><img src="assets/img/whats.svg" alt="" data-uk-svg></a></li>
+                            <li class="mod-link" data-uk-tooltip="Linkdn"><a href=""><img src="assets/img/link.svg" alt="" data-uk-svg></a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-text-left@s uk-text-center">
+                        <img src="assets/img/Footer-Logo.png" alt="" data-uk-svg>
+                    </div>
+                </div>
+                <hr class="mod-hr uk-margin-medium-bottom uk-margin-medium-top">
+                <div class="uk-grid mod-footer uk-margin-medium-top" data-uk-grid>
+                    <div class="uk-width-expand@s uk-width-1-1">
+                        <h3 class="uk-h5">شرکت راه و ساختمان ایمن بنا</h3>
+                        <hr class="mod-short-hr">
+                        <p class="uk-light uk-text-small mod-paragraph2">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                        </p>
+                    </div>
+                    <div class="uk-width-expand@s uk-width-1-2">
+                        <h3 class="uk-h5"> دسترسی ها</h3>
+                        <hr class="mod-short-hr">
+                        <ul class="mod-footer-list uk-list">
+                            <li class="uk-active"><a class="uk-button uk-button-text" href="#">صفحه اصلی</a></li>
+                            <li><a class="uk-button uk-button-text" href="service.html">خدمات</a></li>
+                            <li><a class="uk-button uk-button-text" href="project.html">پروزه ها</a></li>
+                            <li><a class="uk-button uk-button-text" href="blog.html">اخبار</a></li>
+                            <li><a class="uk-button uk-button-text" href="about.html">درباره ما</a></li>
+                            <li><a class="uk-button uk-button-text" href="contact.html">تماس با ما</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-width-expand@s uk-width-1-2">
+                        <h3 class="uk-h5">خدمات تخصصی</h3>
+                        <hr class="mod-short-hr">
+                        <ul class="mod-footer-list uk-list">
+                            <li class="uk-active"><a class="uk-button uk-button-text" href="#">مشاوره و نوسازی</a></li>
+                            <li><a class="uk-button uk-button-text" href="#">معماری و ساخت</a></li>
+                            <li><a class="uk-button uk-button-text" href="#">طراحی داخلی</a></li>
+                            <li><a class="uk-button uk-button-text" href="#">مهندسی ساختمان</a></li>
+                            <li><a class="uk-button uk-button-text" href="#">برنامه ریزی</a></li>
+                            <li><a class="uk-button uk-button-text mod-f-menu" href="#">راه و ترابری</a></li>
+        
+                        </ul>
+                    </div>
+                    <div class="uk-width-expand@s uk-width-1-1">
+                        <h3 class="uk-h5">نشانی ما</h3>
+                        <hr class="mod-short-hr">
+                        <div class="mod-footer-text uk-text-small" data-uk-margin>
+                            <div>
+                                آدرس : لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                            </div>
+                            <div>
+                                شماره تماس : 3332222555
+                            </div>
+                            <div>
+                                شماره فکس : 3332222555
+                            </div>
+                            <div>
+                                 شماره تلگرام : 3332222555   
+                            </div>
+                            <div>
+                                    ایمیل : email@gmail.com
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="mod-footer2 uk-text-small uk-position-relative">
+        <div class="mod-border uk-position-top mod-rotate">
+        </div>
+        <div class="uk-container uk-container-large">
+            <div class="uk-child-width-1-2@s" data-uk-grid>
+                <div class="uk-text-righ@s uk-text-centert">تمام حقوق سایت متعلق به شرکت ایمن بنا می باشد</div>
+                <div class="uk-text-left@s uk-text-center" style="direction: ltr"><p>© 2019 - Design &amp; Developed by : <a class="mod-modiran" href="http://www.modiranart.com">ModiranArt</a></p></div>
+            </div>
+        </div>
+        <div class="mod-border uk-position-bottom">
+        </div>
+    </div>
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/js/slider.js"></script>
+<script>
+    var count=document.querySelectorAll('.mod-index').length;
+    UIkit.util.on('#main', 'beforeitemshow', function(){
+        var x=UIkit.slider('#main').index;
+        document.getElementsByClassName("mod-index")[x].innerHTML=x+1;
+        document.getElementsByClassName("mod-count")[x].innerHTML=count;
+    });
+</script>
+</script>
+
